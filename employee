@@ -1,0 +1,41 @@
+
+class Employee
+{ String name,address;
+
+   int year;
+   
+   public static void main(String args[]){
+     
+          
+      
+     String name=new String();
+       Employee one=new Employee();
+         Employee two=new Employee();
+           Employee three=new Employee();    
+          one.year=1994;
+          two.year=2000;
+          three.year=1999;
+          one.name="Robertwallstreet";
+          two.name="samwallstreet";
+          three.name="jhonnwallstreet";
+                    one.address="64c";
+          two.address="68d";
+          three.address="26b";
+          
+          System.out.println(" name                year                 adresss");
+          System.out.println(one.name+"         "+one.year+"          "+one.address);
+          System.out.println(two.name+"           "+two.year+"         "+two.address);
+         System.out.println(three.name+"           "+three.year+"      "+three.address);
+          
+          
+          
+          
+          
+          
+          
+       
+   }
+
+    
+    }
+    
